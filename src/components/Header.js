@@ -123,139 +123,69 @@ export default function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="navbar-nav">
-          <div className="nav-item dropdown col">
+        <div className="col-2">
+          <Link to="/shop?type=phone">
             <button
-              className="btn dropdown-toggle "
+              className="btn"
               type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               Phones
             </button>
-
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <Link to="/shop">Xiaomi</Link>
-              <a className="dropdown-item" href="shop.html">
-                Apple
-              </a>
-              <a className="dropdown-item" href="shop.html">
-                Samsung
-              </a>
-            </div>
-          </div>
+          </Link>
         </div>
 
         <div className="col-2">
-          <div className="dropdown ">
+          <Link to="/shop/?type=tablet">
             <button
-              className="btn dropdown-toggle "
+              className="btn"
               type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               Tablets
             </button>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a className="dropdown-item" href="#">
-                Apple
-              </a>
-              <a className="dropdown-item" href="#">
-                Samsung
-              </a>
-              <a className="dropdown-item" href="#">
-                Lenovo
-              </a>
-            </div>
-          </div>
+          </Link>
         </div>
 
         <div className="col-2">
-          <div className="dropdown ">
+          <Link to="/shop/?type=watch">
             <button
-              className="btn dropdown-toggle "
+              className="btn"
               type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               Watches
             </button>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a className="dropdown-item" href="#">
-                Microwear
-              </a>
-              <a className="dropdown-item" href="#">
-                Samsung
-              </a>
-              <a className="dropdown-item" href="#">
-                Aimoto
-              </a>
-              <a className="dropdown-item" href="#">
-                Apple
-              </a>
-            </div>
-          </div>
+          </Link>
         </div>
 
         <div className="col-2">
-          <div className="dropdown ">
+          <Link to="/shop/?type=tv">
             <button
-              className="btn dropdown-toggle "
+              className="btn"
               type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Tvs
+              TVs
             </button>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a className="dropdown-item" href="#">
-                Xiaomi
-              </a>
-              <a className="dropdown-item" href="#">
-                Samsung
-              </a>
-              <a className="dropdown-item" href="#">
-                Apple
-              </a>
-            </div>
-          </div>
+          </Link>
         </div>
 
         <div className="col-2">
-          <div className="dropdown ">
+          <Link to="/shop/?type=camera">
             <button
-              className="btn dropdown-toggle "
+              className="btn"
               type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               Cameras
             </button>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a className="dropdown-item" href="#">
-                Nikon
-              </a>
-              <a className="dropdown-item" href="#">
-                Nilox
-              </a>
-              <a className="dropdown-item" href="#">
-                Canyon
-              </a>
-              <a className="dropdown-item" href="#">
-                Acme
-              </a>
-            </div>
-          </div>
+          </Link>
         </div>
       </nav>
       <div
