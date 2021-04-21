@@ -119,7 +119,7 @@ export default function App({ products }) {
       <div className="container bg-secondary ">
         <h1 className="text-center"> Discounts </h1>
         <div className="row m-auto  ">
-          {products.length != 0
+          {products.length !== 0
             ? products.map((product, index) => {
                 if (index < 3) {
                   return <ProductCard product={product} key={product.id} />;

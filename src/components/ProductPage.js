@@ -12,7 +12,7 @@ export default function ProductPage({
   const id = useParams().id;
 
   useEffect(() => {
-    setProduct(products.find((elem) => elem.id == id));
+    setProduct(products.find((elem) => elem.id === id));
   }, []);
 
   const addToCart = (id, count) => {
@@ -33,7 +33,7 @@ export default function ProductPage({
         count: count + elemFound.count,
         wholePrice: (count + elemFound.count) * product.price,
       };
-     
+
       const newProducts = cartProducts.filter((pr) => pr.id !== id);
       setCartProducts(() => {
         return [...newProducts, newCartProduct];
@@ -56,7 +56,7 @@ export default function ProductPage({
     <div className="container">
       <div className="col-12 col-md-6">
         <div className="col-12">
-          <img src={product.img} className="img-fluid" />
+          <img alt="" src={product.img} className="img-fluid" />
         </div>
       </div>
 

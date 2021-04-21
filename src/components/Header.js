@@ -37,6 +37,7 @@ export default function Header() {
         <div className="col-4 col-lg-3">
           <Link to="/">
             <img
+              alt=""
               src="https://www.freepnglogos.com/uploads/mobile-circle-logo-png-30.png"
               width="80px"
             />
@@ -75,7 +76,7 @@ export default function Header() {
             <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a
                 className="dropdown-item"
-                href="#"
+                href="asdfsf"
                 data-toggle="modal"
                 data-target="#LoginModal"
               >
@@ -83,7 +84,7 @@ export default function Header() {
               </a>
               <a
                 className="dropdown-item"
-                href="#"
+                href="asdfasfd"
                 data-toggle="modal"
                 data-target="#RegModal"
               >
@@ -101,10 +102,10 @@ export default function Header() {
               aria-expanded="false"
             >
               <img
+                alt=""
                 width="30px"
                 className="img-fluid"
                 src="https://i.pinimg.com/originals/15/4f/df/154fdf2f2759676a96e9aed653082276.png"
-                alt="asdf"
               />
             </button>
           </Link>

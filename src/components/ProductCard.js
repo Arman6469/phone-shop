@@ -6,7 +6,7 @@ export default function ProductCard({ product }) {
       <img
         className="card-img-top img-fluid "
         src={product.img}
-        alt="Card image cap"
+        alt=""
       />
       <div className="card-body">
         <h5 className="card-title">{product.title}</h5>

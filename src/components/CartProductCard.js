@@ -10,7 +10,7 @@ export default function CartProductCard({ product,cartProducts, setCartProducts 
       <div className="col-12 mt-2 border border-dark">
         <div className=" d-flex">
           <div className="col-5 col-lg-3 ">
-            <img src={product.img} className="img-fluid w-100" />
+            <img alt="" src={product.img} className="img-fluid w-100" />
           </div>
 
           <div className="col-6 d-flex justify-content-center align-items-center ">

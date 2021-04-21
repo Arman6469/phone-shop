@@ -136,6 +136,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                             htmlFor="1"
                           ></label>
                           <img
+                          alt=""
                             className="img-fluid"
                             src="https://i.pinimg.com/originals/55/a3/c2/55a3c2e6e01843e209cf2c2b279363b9.png"
                           />
@@ -152,6 +153,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                             htmlFor="2"
                           ></label>
                           <img
+                          alt=""
                             className="img-fluid"
                             src="http://www.armbanks.am/wp-content/uploads/2017/10/%D0%90%D0%A0%D0%9A%D0%90_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg"
                           />
@@ -168,6 +170,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                             htmlFor="3"
                           ></label>
                           <img
+                          alt=""
                             className="img-fluid"
                             src="https://psm7.com/wp-content/uploads/2013/03/Discover.jpg"
                           />
@@ -184,6 +187,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                             htmlFor="4"
                           ></label>
                           <img
+                          alt=""
                             className="img-fluid"
                             src="https://shopper.life/images/faq/paypal_logo.png"
                           />
@@ -200,6 +204,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                             htmlFor="5"
                           ></label>
                           <img
+                          alt=""
                             className="img-fluid"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/320px-MasterCard_Logo.svg.png"
                           />
@@ -216,6 +221,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                             htmlFor="6"
                           ></label>
                           <img
+                          alt=""
                             className="img-fluid"
                             src="https://img2.freepng.ru/20180324/apw/kisspng-visa-electron-credit-card-debit-card-payment-mastercard-5ab6ff0de763e2.6395189915219422859478.jpg"
                           />

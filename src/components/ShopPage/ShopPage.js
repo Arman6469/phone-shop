@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { useHistory, useParams, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import qs from "query-string";
 import ShopCard from "./ShopCard";
 
@@ -50,40 +50,45 @@ export default function ShopPage({ initialProducts }) {
               <div className="card-body">
                 <div className="row">
                   <div className="col-xl-6">
-                    <a href="">
+                    <a href="asdfasdfasgdf">
                       <img
+                        alt=""
                         src="https://mobilecentre.am/img/brands/34e57dacf55e24d38d7d6.png"
                         className="img-fluid"
                       />
                     </a>
                   </div>
                   <div className="col-xl-6">
-                    <a href="">
+                    <a href="asdfsdfasasgdf">
                       <img
+                        alt=""
                         src="https://w7.pngwing.com/pngs/986/821/png-transparent-nokia-logo-nokia-lumia-900-logo-nokia-ozo-smartphone-lenovo-logo-blue-electronics-company.png"
                         className="img-fluid"
                       />
                     </a>
                   </div>
                   <div className="col-xl-6">
-                    <a href="">
+                    <a href="asdfsdfasasgdf">
                       <img
+                        alt=""
                         src="https://mobilecentre.am/img/brands/b136b1d0734a1f3d10dd1.png"
                         className="img-fluid"
                       />
                     </a>
                   </div>
                   <div className="col-xl-6">
-                    <a href="">
+                    <a href="asdfsdfasasgdf">
                       <img
+                        alt=""
                         src="https://mobilecentre.am/img/brands/cef1fcb344a1664835442.png"
                         className="img-fluid"
                       />
                     </a>
                   </div>
                   <div className="col-xl-6">
-                    <a href="">
+                    <a href="asdfsdfasasgdf">
                       <img
+                        alt=""
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/LG_Logo_Slogan_3d.svg/1024px-LG_Logo_Slogan_3d.svg.png"
                         className="img-fluid"
                       />
@@ -114,7 +119,7 @@ export default function ShopPage({ initialProducts }) {
         </div>
 
         <div className=" col-md-9">
-          {products.length != 0
+          {products.length !== 0
             ? products.map((product) => {
                 return <ShopCard product={product} key={product.id} />;
               })

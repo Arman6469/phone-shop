@@ -6,6 +6,7 @@ export default function ShopCard({ product }) {
     <div className="row d-flex" style={{padding: '1rem'}}>
       <div className="col-md-3 col-3 ">
         <img
+        alt=""
           src={product.img}
           className="img-fluid "
         />
