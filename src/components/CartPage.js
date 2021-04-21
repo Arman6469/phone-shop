@@ -43,7 +43,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
         <div
           className="modal fade"
           id="exampleModal"
-          tabindex="-1"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
@@ -66,7 +66,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
               <div className="modal-body">
                 <form>
                   <div className="form-group">
-                    <label for="recipient-name" className="col-form-label">
+                    <label htmlFor="recipient-name" className="col-form-label">
                       Name:
                     </label>
                     <input
@@ -74,7 +74,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                       className="form-control"
                       id="recipient-name"
                     />
-                    <label for="recipient-name" className="col-form-label">
+                    <label htmlFor="recipient-name" className="col-form-label">
                       Surname:
                     </label>
                     <input
@@ -82,7 +82,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                       className="form-control"
                       id="recipient-name"
                     />
-                    <label for="recipient-name" className="col-form-label">
+                    <label htmlFor="recipient-name" className="col-form-label">
                       Mail:
                     </label>
                     <input
@@ -90,7 +90,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                       className="form-control"
                       id="recipient-name"
                     />
-                    <label for="recipient-name" className="col-form-label">
+                    <label htmlFor="recipient-name" className="col-form-label">
                       Phone:
                     </label>
                     <input
@@ -98,7 +98,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                       className="form-control"
                       id="recipient-name"
                     />
-                    <label for="recipient-name" className="col-form-label">
+                    <label htmlFor="recipient-name" className="col-form-label">
                       Country:
                     </label>
                     <input
@@ -106,7 +106,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                       className="form-control"
                       id="recipient-name"
                     />
-                    <label for="recipient-name" className="col-form-label">
+                    <label htmlFor="recipient-name" className="col-form-label">
                       City:
                     </label>
                     <input
@@ -114,7 +114,7 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                       className="form-control"
                       id="recipient-name"
                     />
-                    <label for="recipient-name" className="col-form-label">
+                    <label htmlFor="recipient-name" className="col-form-label">
                       Adress:
                     </label>
                     <input
@@ -123,122 +123,149 @@ export default function CartPage({ cartProducts, setCartProducts }) {
                       id="recipient-name"
                     />
 
-
-                   <div className="container-fluid">
+                    <div className="container-fluid">
                       <div className="row d-flex">
-
-
+                        <div className="custom-control custom-checkbox col-4">
+                          <input
+                            type="checkbox"
+                            className="custom-control-input"
+                            id="1"
+                          />
+                          <label
+                            className="custom-control-label"
+                            htmlFor="1"
+                          ></label>
+                          <img
+                            className="img-fluid"
+                            src="https://i.pinimg.com/originals/55/a3/c2/55a3c2e6e01843e209cf2c2b279363b9.png"
+                          />
+                        </div>
 
                         <div className="custom-control custom-checkbox col-4">
+                          <input
+                            type="checkbox"
+                            className="custom-control-input"
+                            id="2"
+                          />
+                          <label
+                            className="custom-control-label"
+                            htmlFor="2"
+                          ></label>
+                          <img
+                            className="img-fluid"
+                            src="http://www.armbanks.am/wp-content/uploads/2017/10/%D0%90%D0%A0%D0%9A%D0%90_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg"
+                          />
+                        </div>
+
+                        <div className="custom-control custom-checkbox col-4">
+                          <input
+                            type="checkbox"
+                            className="custom-control-input"
+                            id="3"
+                          />
+                          <label
+                            className="custom-control-label"
+                            htmlFor="3"
+                          ></label>
+                          <img
+                            className="img-fluid"
+                            src="https://psm7.com/wp-content/uploads/2013/03/Discover.jpg"
+                          />
+                        </div>
+
+                        <div className="custom-control custom-checkbox col-4">
+                          <input
+                            type="checkbox"
+                            className="custom-control-input"
+                            id="4"
+                          />
+                          <label
+                            className="custom-control-label"
+                            htmlFor="4"
+                          ></label>
+                          <img
+                            className="img-fluid"
+                            src="https://shopper.life/images/faq/paypal_logo.png"
+                          />
+                        </div>
+
+                        <div className="custom-control custom-checkbox col-4">
+                          <input
+                            type="checkbox"
+                            className="custom-control-input"
+                            id="5"
+                          />
+                          <label
+                            className="custom-control-label"
+                            htmlFor="5"
+                          ></label>
+                          <img
+                            className="img-fluid"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/320px-MasterCard_Logo.svg.png"
+                          />
+                        </div>
+
+                        <div className="custom-control custom-checkbox col-4">
+                          <input
+                            type="checkbox"
+                            className="custom-control-input"
+                            id="6"
+                          />
+                          <label
+                            className="custom-control-label"
+                            htmlFor="6"
+                          ></label>
+                          <img
+                            className="img-fluid"
+                            src="https://img2.freepng.ru/20180324/apw/kisspng-visa-electron-credit-card-debit-card-payment-mastercard-5ab6ff0de763e2.6395189915219422859478.jpg"
+                          />
+                        </div>
+
+                        <label htmlFor="recipient-name" className="col-form-label">
+                          Card Number:
+                        </label>
                         <input
-                          type="checkbox"
-                          className="custom-control-input"
-                          id="1"/>
-                        <label className="custom-control-label" for="1"  ></label>
-                        <img className="img-fluid" src="https://i.pinimg.com/originals/55/a3/c2/55a3c2e6e01843e209cf2c2b279363b9.png"/>
-                      </div>
-
-                      <div className="custom-control custom-checkbox col-4">
+                          type="text"
+                          className="form-control"
+                          id="recipient-name"
+                        />
+                        <label htmlFor="recipient-name" className="col-form-label">
+                          Card Name:
+                        </label>
                         <input
-                          type="checkbox"
-                          className="custom-control-input"
-                          id="2"/>
-                        <label className="custom-control-label" for="2"  ></label>
-                        <img className="img-fluid" src="http://www.armbanks.am/wp-content/uploads/2017/10/%D0%90%D0%A0%D0%9A%D0%90_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg"/>
-                      </div>
-
-                      <div className="custom-control custom-checkbox col-4">
+                          type="text"
+                          className="form-control"
+                          id="recipient-name"
+                        />
+                        <label htmlFor="recipient-name" className="col-form-label">
+                          M/M:
+                        </label>
                         <input
-                          type="checkbox"
-                          className="custom-control-input"
-                          id="3"/>
-                        <label className="custom-control-label" for="3"  ></label>
-                        <img className="img-fluid"  src="https://psm7.com/wp-content/uploads/2013/03/Discover.jpg"/>
-                      </div>
-
-                      <div className="custom-control custom-checkbox col-4">
+                          type="text"
+                          className="form-control"
+                          id="recipient-name"
+                        />
+                        <label htmlFor="recipient-name" className="col-form-label">
+                          Y/Y:
+                        </label>
                         <input
-                          type="checkbox"
-                          className="custom-control-input"
-                          id="4"/>
-                        <label className="custom-control-label" for="4"  ></label>
-                        <img className="img-fluid" src="https://shopper.life/images/faq/paypal_logo.png"/>
-                      </div>
-
-                      <div className="custom-control custom-checkbox col-4">
+                          type="text"
+                          className="form-control"
+                          id="recipient-name"
+                        />
+                        <label htmlFor="recipient-name" className="col-form-label">
+                          Cvv:
+                        </label>
                         <input
-                          type="checkbox"
-                          className="custom-control-input"
-                          id="5"/>
-                        <label className="custom-control-label" for="5"  ></label>
-                        <img className="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/320px-MasterCard_Logo.svg.png"/>
+                          type="text"
+                          className="form-control"
+                          id="recipient-name"
+                        />
                       </div>
-
-                      <div className="custom-control custom-checkbox col-4">
-                        <input
-                          type="checkbox"
-                          className="custom-control-input"
-                          id="6"/>
-                        <label className="custom-control-label" for="6"  ></label>
-                        <img className="img-fluid" src="https://img2.freepng.ru/20180324/apw/kisspng-visa-electron-credit-card-debit-card-payment-mastercard-5ab6ff0de763e2.6395189915219422859478.jpg"/>
-                      </div>
-
-
-                      <label for="recipient-name" className="col-form-label">
-                      Card Number:
-                    </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="recipient-name"
-                    />
-                    <label for="recipient-name" className="col-form-label">
-                      Card Name:
-                    </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="recipient-name"
-                    />
-                    <label for="recipient-name" className="col-form-label">
-                      M/M:
-                    </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="recipient-name"
-                    />
-                    <label for="recipient-name" className="col-form-label">
-                      Y/Y:
-                    </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="recipient-name"
-                    />
-                    <label for="recipient-name" className="col-form-label">
-                      Cvv:
-                    </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="recipient-name"
-                    />
                     </div>
-                   </div>
-
-
-                    
-                     
-
-
-
-
-
-                    </div>
+                  </div>
                 </form>
               </div>
-
 
               <div className="modal-footer">
                 <button
@@ -262,38 +289,10 @@ export default function CartPage({ cartProducts, setCartProducts }) {
           </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div
           className="modal fade"
           id="exampleModal1"
-          tabindex="-1"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
