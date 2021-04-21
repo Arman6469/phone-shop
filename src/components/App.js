@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard";
 
 export default function App({ products }) {
   return (
-    <div>
+    <div className= "container">
       <div
         className="alert alert-dark alert-dismissible fade show"
         role="alert"
@@ -63,18 +63,12 @@ export default function App({ products }) {
               loop="loop"
             >
               <source
-                src="https://images.samsung.com/is/content/samsung/assets/ru/p6_gro1/p6_initial_pfs-home_local/s20kv_1460.mp4"
+                src="https://images.samsung.com/is/content/samsung/assets/ru/galaxy-s21/pfs/HOME_T_O_KV_Main_Animated_KV_1440X640.mp4"
                 type="video/mp4"
               />
             </video>
-            <div className="carousel-caption d-none d-md-block">
-              <a href="product.html">
-                <button type="button" className="btn btn-dark">
-                  <h2>Buy Now</h2>
-                </button>
-              </a>
-            </div>
           </div>
+
           <div className="carousel-item">
             <video
               playsInline="playsinline"
@@ -91,6 +85,8 @@ export default function App({ products }) {
               <h1>QLED 8K</h1>
             </div>
           </div>
+
+
         </div>
         <a
           className="carousel-control-prev"

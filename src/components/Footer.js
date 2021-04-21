@@ -104,6 +104,7 @@ export default function Footer() {
         </div>
         <nav className=" row bg-dark text-white navbar navbar-dark  ">
           <div className=" col-lg-6 d-none d-lg-block align-items-baseline">
+          
             <img
               src="https://image.flaticon.com/icons/svg/889/889102.svg"
               className="px-1"
@@ -126,7 +127,7 @@ export default function Footer() {
             />
           </div>
           <div className="col-12 col-lg-6 ">
-            <p>© Tumo Center For Ccreative Technologies</p>
+            <p>Torosyan Erik</p>
           </div>
         </nav>
       </div>

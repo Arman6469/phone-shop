@@ -10,9 +10,9 @@ export default function ProductCard({ product }) {
       />
       <div className="card-body">
         <h5 className="card-title">{product.title}</h5>
-        <p className="card-text">{product.cardText}</p>
       </div>
       <ul className="list-group list-group-flush ">
+        <li className="list-group-item">{product.cardText}</li>
         <li className="list-group-item">{product.sale}</li>
         <li className="list-group-item">{product.control}</li>
         <li className="list-group-item">{product.charachter1}</li>

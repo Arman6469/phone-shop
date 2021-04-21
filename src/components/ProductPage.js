@@ -69,16 +69,10 @@ export default function ProductPage({
         </div>
         <div>
           <div className=" mb-3 mt-3 col-12">
-            <li>
-             {product.sale}
-            </li>
-            <li>{product.character1}</li>
-            <li>
-              A11 Bionic chip with 64-bit architecture Neural engine Embedded
-              M11 motion coprocessor
-            </li>
-            <li>GSM 850 / 900 / 1800 / 1900</li>
-            <li>256 GB</li>
+            <li>{product.cardText}</li>
+            <li>{product.sale}</li>
+            <li>{product.control}</li>
+            <li>{product.charachter1}</li>
           </div>
           <div className="col-12 mb-3 mt-3">
             <div className="row">

@@ -6,22 +6,22 @@ export default function Header() {
     <div className="container">
       <nav className="navbar navbar-light bg-light">
         <div className="col-3 d-none d-lg-block">
-          <p className="my-auto ">Тел.+7987-784-58-65</p>
+          <p className="my-auto ">Phone.+7987-784-58-65</p>
         </div>
         <div className="col-3 d-none d-lg-block">
           <p className="my-auto">Welcome to our store</p>
         </div>
         <div className="col-6 col-lg-2">
           <select className="custom-select">
+            <option value="3">EN</option>
             <option value="1">AM</option>
             <option value="2">RU</option>
-            <option value="3">EN</option>
           </select>
         </div>
         <div className="col-6 col-lg-2">
           <select className="custom-select">
-            <option value="1">֏</option>
             <option value="2">$</option>
+            <option value="1">֏</option>
             <option value="3">€</option>
           </select>
         </div>
@@ -34,7 +34,7 @@ export default function Header() {
       </nav>
 
       <nav className="navbar  navbar-dark bg-dark">
-        <div className="col-5 col-lg-3">
+        <div className="col-4 col-lg-3">
           <Link to="/">
             <img
               src="https://www.freepnglogos.com/uploads/mobile-circle-logo-png-30.png"
@@ -59,7 +59,7 @@ export default function Header() {
             </button>
           </form>
         </div>
-        <div className="col-7 col-lg-2">
+        <div className="col-4 col-lg-2">
           <div className="dropdown">
             <button
               className="btn btn-danger dropdown-toggle"
@@ -92,7 +92,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className="col-2">
+        <div className="col-2 d-lg-4">
           <Link to="/cart">
             <button
               className="btn btn-danger"
