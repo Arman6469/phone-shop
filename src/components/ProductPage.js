@@ -12,11 +12,11 @@ export default function ProductPage({
   const id = useParams().id;
 
   useEffect(() => {
-    setProduct(products.find((elem) => elem.id === id));
+    setProduct(products.find((elem) => elem.id == id));
   }, []);
 
   const addToCart = (id, count) => {
-    const elemFound = cartProducts.find((elem) => elem.id === product.id);
+    const elemFound = cartProducts.find((elem) => elem.id == product.id);
     if (!elemFound) {
       const newCartProduct = {
         ...product,
